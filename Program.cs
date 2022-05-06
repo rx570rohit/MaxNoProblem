@@ -12,7 +12,7 @@ namespace MaxNoProblem
         {
             Console.WriteLine(" Max integer:"+Max.MaximumIntegerNumber(1,5,6));
             Console.WriteLine("Max Float :"+Max.MaximumFloatNumber(8.6, 9.2, 4.5));
-           // Console.WriteLine("Max String :" + Max.MaximumFloatNumber(8.6, 9.2, 4.5));
+            Console.WriteLine("Max String :" + Max.MaximumStringNumber("my name", "is","Rohit"));
         }
     }
 }
