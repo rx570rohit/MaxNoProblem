@@ -10,7 +10,9 @@ namespace MaxNoProblem
     {
         public static void Main(String [] arg)
         {
-            Console.WriteLine(Maxint.MaximumIntegerNumber(1,5,6));
+            int[] arr = { 112, 344, 432, 555, 678 }; GenricsMax<int> generic = new GenricsMax<int>(arr); generic.PrintMaxValue();
+
+
         }
     }
 }
